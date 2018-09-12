@@ -31,3 +31,75 @@ a
 
 .derecha
 	float: right
+
+/* --- HEADER ---*/
+
+header
+	margin: 40px 0px
+	font-size: 20px
+	text-align: center
+
+/* --- FOTOS ---*/
+
+.fotos .contenedor
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-between
+
+.thumb
+	width: 22%
+	margin-bottom: 30px
+	outline: 5px solid rgba(255,255,255,0)
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.8)
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.8)
+	-webkit-trasition: all 0.3s ease
+	-moz-trasition: all 0.3s ease
+	-ms-trasition: all 0.3s ease
+	-o-trasition: all 0.3s ease
+	trasition: all 0.3s ease
+	&:hover
+		outline: 5px solid rgba(255,255,255,1)
+	a
+		display: block
+	img
+		vertical-align: top
+		width: 100%
+
+.foto
+	width: 100%
+	margin: auto
+	max-width: 500px
+	text-align: center
+	img
+		width: 100%
+		vertical-align: top
+		-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.8)
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.8)
+		margin-bottom: 30px
+	.texto
+		max-width: 500px
+		margin-bottom: 30px
+
+.regresar
+	padding: 5px 10px
+	margin-bottom: 30px
+	display: inline-block
+	border-radius: 50px
+	font-size: 16px
+	border: 1px solid rgba(255,255,255,0.2)
+	-webkit-transition: all 0.3s ease
+	-o-transition: all 0.3s ease
+	transition: all 0.3s ease
+	&:hover
+		border: 1px solid #FFF
+		text-decoration: none
+	.fa
+		margin-right: 15px
+
+footer .copyright
+	text-align: center
+	color: rgba(255,255,255,0.5)
+	font-size: 16px
+	padding: 15px 0px
+

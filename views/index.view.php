@@ -57,8 +57,8 @@
 				</a>
 			</div>
 			<div class="paginacion">
-				<a href="#" class="izquierda"><i class="fa fa-long-arrow-left"> Pagina Anterior</i></a>
-				<a href="" class="derecha">Pagina Siguiente <i class="fa fa-long-arrow-right"></i></a>
+				<a href="#" class="izquierda"><i class="fa fa-long-arrow-left"></i> Pagina Anterior</a>
+				<a href="#" class="derecha">Pagina Siguiente <i class="fa fa-long-arrow-right"></i></a>
 			</div>
 		</div>
 	</section>
